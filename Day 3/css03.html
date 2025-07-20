@@ -1,0 +1,28 @@
+<style>
+    .column {
+      display: flex;
+      justify-content: space-between;
+    }
+    .box {
+      width: 30%;
+      margin: 1%;
+      padding: 20px;
+      background-color: lightblue;
+    }
+    @media(max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .box {
+        width: 100%;
+        margin: 10px 0;
+      }
+    }
+  </style>
+  
+  <div class="cl">
+    <div class="box">square 1</div>
+    <div class="box">square 2</div>
+    <div class="box">square 3</div>
+    <div> <input type="button" value="click"> </div>
+  </div>
